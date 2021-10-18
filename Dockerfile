@@ -60,6 +60,7 @@ RUN apt-get -qqy update \
     && apt -qqy install neofetch \
     && apt -qqy install hollywood \
     && apt -qqy install ffmpeg \ 
+    && apt -qqy install youtube-dl \
     && apt -qqy update \
     && apt -qqy upgrade \
     && apt-get autoclean \
